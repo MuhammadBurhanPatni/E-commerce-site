@@ -90,7 +90,7 @@ export default function ProductPage({ params }: { params: any }) {
                     <button
                       key={index}
                       onClick={() => setActiveImage(img)}
-                      className={`relative h-20 w-20 flex-shrink-0 overflow-hidden rounded-2xl border-2 transition-all ${
+                      className={`relative h-20 w-20 shrink-0 overflow-hidden rounded-2xl border-2 transition-all ${
                         activeImage === img ? "border-green-600 ring-2 ring-green-100 scale-105" : "border-transparent opacity-70 hover:opacity-100"
                       }`}
                     >

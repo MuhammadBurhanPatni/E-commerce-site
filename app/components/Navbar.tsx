@@ -113,7 +113,7 @@ export default function Navbar({ search, setSearch }: any) {
       />
       
       {/* Sidebar Panel */}
-      <div className={`fixed top-0 right-0 h-full w-[300px] bg-white z-[80] shadow-2xl transition-transform duration-300 ease-in-out lg:hidden ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
+      <div className={`fixed top-0 right-0 h-full w-75 bg-white z-[80] shadow-2xl transition-transform duration-300 ease-in-out lg:hidden ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
         <div className="flex flex-col h-full">
           {/* Header */}
           <div className="p-6 border-b flex justify-between items-center bg-gray-50">
